@@ -152,6 +152,8 @@ img {
   background-image: url(../іmages/hero-bg.png), url(../іmages/hero.png); 
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
   
   
 }
