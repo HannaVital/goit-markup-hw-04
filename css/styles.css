@@ -61,6 +61,11 @@ img {
 /*Header Nav*/
 .header {
   border-bottom: 1px solid var(--border-color);
+  max-width: 1600px;
+}
+.header.section {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .container {
   margin: 0 auto;
@@ -152,8 +157,7 @@ img {
   background-image: url(../іmages/hero-bg.png), url(../іmages/hero.png); 
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: auto;
-  margin-right: auto;
+  
   
   
 }
@@ -194,6 +198,9 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section.advantage {
@@ -342,6 +349,7 @@ img {
 .footer  {
   padding-top: 60px;
   padding-bottom: 60px;
+  
 
 
 }
